@@ -2,5 +2,93 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui;
+}
 
+header{
+    min-height: 50vh;
+    background-image: url(../img/design2_image1.jpg);
+    background-size: cover;
+}
+
+header>h1{
+    background-color: rgb(241, 241, 241);
+    font-size: 50px;
+    min-height: 10vh;
+}
+
+html, body{
+    width: 100% !important;
+    background-color: rgb(241, 241, 241);
+}
+
+nav{
+    position: absolute;
+    left: 70%; 
+    top: 7%; 
+    min-height: 5vh;   
+}
+
+main{
+    min-height: 40vh;
+}
+
+main>img{
+    width: 20%;
+    position: absolute;
+    left: 70%;
+    top: 65%;    
+}
+
+#img2{
+    width: 12%;
+    position: absolute;
+    top: 97%;  
+    left: 8%;
+}
+
+section{
+    padding-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 5rem;
+}
+
+section p{
+    text-align: start;
+    margin-bottom: 1.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: rgb(90, 149, 160);
+    padding: 0.5rem;
+    border: solid 2px black;
+} 
+
+a[href="#"]{
+    background-color: black;
+    color: aliceblue;
+}
+
+a:hover{
+    color: black;
+    background-color: orange;
+}
+
+#logo{
+    width: 15%;
+    position: absolute;
+    top: 60%;
+    left: 7%; 
+}
+
+main>h3{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 10px;
 }
