@@ -118,7 +118,6 @@ td{
 
 tr{
     padding-bottom: 2rem;
-
 }
 
 ol,ul{
@@ -131,14 +130,12 @@ dt{
 
 .secondOrder{
     list-style-type: lower-alpha;
-       
 }
 
 footer{
     min-width: 3vw;
     padding: 2rem;
     background-color: rgba(155, 155, 114, 0.342);
-
 }
 
 footer p,table{
@@ -157,10 +154,35 @@ input[type="submit"]{
     color: black;
     text-decoration: none;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 iframe{
-    width:400px;
-    height:250px;
+    width:300px;
+    height:150px;
     border:0;
 }
+
+form{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    
+}
+
+fieldset{
+    padding: 2rem;
+}
+
+legend{
+    color: black;
+    background-color: orange;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.3rem;
+}
+
+div h3{
+    color: orange;
+    padding-bottom: 1rem;
+}
+
