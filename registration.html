@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Mighty Ducks</title>
+</head>
+
+<header>
+    <h1>Registration Form</h1>
+    <img id="logo" src="./assets/img/logo_Mighty_ducks-01.png" alt="logo">
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./rules.html">Rules</a>
+    <a href="./game_info.html">Game info</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./registration.html">Registration</a>
+</nav>
+
+<body>
+    <main>
+        <article>
+            <h3>Register Now!</h3>
+            <form action="./show_data.html" method="get">
+                <fieldset>
+                    <label for="firstName">Player's First Name</label>
+                    <input name="firstName" type="text" id="firstName">
+            
+                    <label for="lastName">Last Name</label>
+                    <input name="lasttName" type="text" id="lastName">
+                </fieldset>
+                <fieldset>
+                    <label for="streetAdress">Street Address</label>
+                    <input type="text" name="streetAddress" id="streetAddress">
+                </fieldset>
+        
+                <fieldset>
+                    <label for="city">City</label>
+                    <input type="text">
+        
+                    <label for="zipCode">Zip code</label>
+                    <input type="number" name="zipCode" id="zipCode">
+                </fieldset>
+                <fieldset>
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                    Gender:
+                    <label for="f">Female</label>
+                    <input type="checkbox" name="female" value="f">
+                    <label for="m">Male</label>
+                    <input type="checkbox" name="male" value="m">
+                </fieldset>
+        
+                <fieldset>
+                    Grade:
+                    <label for="pS">Pre-school</label>
+                    <input type="checkbox" name="preSchool" value="pS">
+                </fieldset>
+        
+                <fieldset>
+                    Which elementary school do you live near?
+                    <br>
+                    <label for="aJkatzenmaier"> AJ katzenmaier</label>
+                    <input type="checkbox" name="school1" id="aJkatzenmaier" value="aj">
+                </fieldset>
+        
+                <fieldset>
+                    What positio(s) do you normally play? (check all that apply)
+                    <br>
+                    <label for="aJkatzenmaier">Forward</label>
+                    <input type="checkbox" name="forward" id="Forward" value="forward">
+
+                    <label for="defense">Defense</label>
+                    <input type="checkbox" name="defense" id="defense" value="defense">
+
+                    <label for="midfield">Midfield</label>
+                    <input type="checkbox" name="midfield" id="midfield" value="midfield">
+
+                    <label for="goalkeeper">GoalKeeper</label>
+                    <input type="checkbox" name="goalkeeper" id="goalkeeper" value="goalkeeper">
+                </fieldset>
+        
+                <fieldset>
+                    Uniform Size
+                    <br>
+                    <label for="youthSmall"> Youth Small</label>
+                    <input type="checkbox" name="youthSmall" value="youthSmall">
+                </fieldset>
+        
+                <fieldset>
+                    Permission to Play
+                    
+                    <label for="permission"></label>
+                </fieldset>
+        
+    
+            <input type="submit" value="Submit">
+    
+        </form>
+        </article>
+    </main>
+    
+</body>
+</html>

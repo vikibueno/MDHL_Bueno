@@ -3,59 +3,80 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui;
+    -webkit-text-stroke: 0.5px black;
+}
+
+body{
+    width: 100% !important;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header{
-    min-height: 50vh;
+    min-height: 65vh;
     background-image: url(../img/design2_image1.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 header>h1{
-    background-color: rgb(241, 241, 241);
-    font-size: 50px;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-}
-
-
-html, body{
-    width: 100% !important;
-    background-color: rgb(241, 241, 241);
+    background-color: black;
+    color: rgb(146, 8, 31);
+    text-decoration: solid;
+    font-size: 2.5rem;
+    height: 4.5rem ;
+    flex-grow: 2;
+    text-align: center;
 }
 
 nav{
     min-height: 5vh;   
+    background-color: rgba(155, 155, 114, 0.342);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main{
-    min-height: 40vh;
+    min-height: 35vh;
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+article{
     display: flex;
     flex-direction: column;
 }
 
- main>img{
-    width: 20%;
-}  
+article>h3{
+    text-align: left;
+    color: rgb(37, 36, 36);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
 
- #img2{
-    width: 12%;
+main>img{
+    width: 25%;
+    height: 25%;
+    align-self: center;
 }
 
 section p{
+    padding-left: 1rem;
     text-align: start;
     margin-bottom: 1.5rem;
-} 
+}
 
 nav a{
     text-decoration: none;
-    display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
-    background-color: rgb(90, 149, 160);
     padding: 0.5rem;
-    border: solid 2px black;
 } 
 
 a[href="#"]{
@@ -69,16 +90,9 @@ a:hover{
 }
 
 #logo{
-    width: 15%;
-    align-self: flex-end;
-}
-
-main>h3{
-    text-align: center;
-    color: white;
+    width: 5vw;
+    align-self:flex-start;
     background-color: black;
-    font-size: 30px;
-    padding: 10px;
 }
 
 table{
@@ -102,11 +116,51 @@ td{
     text-align: left;
 }
 
-p {
-    padding-left: 2rem;
+tr{
+    padding-bottom: 2rem;
+
 }
 
-h4{
-    padding-left: 1rem;
+ol,ul{
+    padding: 2rem;
 }
 
+dt{
+    padding-bottom: 1rem;
+}
+
+.secondOrder{
+    list-style-type: lower-alpha;
+       
+}
+
+footer{
+    min-width: 3vw;
+    padding: 2rem;
+    background-color: rgba(155, 155, 114, 0.342);
+
+}
+
+footer p,table{
+    padding-left: 3rem;
+}
+
+fieldset{
+    padding: 1rem;
+}
+
+input[type="submit"]{
+    background-color: orange;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 2rem;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+iframe{
+    width:400px;
+    height:250px;
+    border:0;
+}
